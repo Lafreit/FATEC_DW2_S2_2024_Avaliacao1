@@ -21,6 +21,42 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <html>
     <head>
         <title>Login</title>
+    <style>
+        body {
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin-top: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        p {
+            text-align: center;
+        }
+        p.error {
+            color: red;
+    </style>
     </head>
     <body>
         <h1>Login</h1>
@@ -34,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         <?php
             if(isset($_GET['error']))
             {
-                echo '<p style="color: red;">Invalid credentials!</p>';
+                echo '<p style="color: red;">Senha Inválida!</p>';
             }
        ?>
     </body>

@@ -57,14 +57,14 @@ require('header.php');
     <?php 
     if($username=='coordenacao')
     {
-    <a href="cadastro.php">Registro de solicitações</a>;
+    <a href="registro.php">Registro de solicitações</a>;
     } else if($username=='tecnicos')
     {
-        <a href="cadastro.php">Verifica solicitações Registradas</a>;
+        <a href="registro.php">Verifica solicitações Registradas</a>;
     } 
     ?>
     
-        <a href="cadastro.php">Registro de Solicitações</a>
+        <a href="registro.php">Registro de Solicitações</a>
         <a href="logout.php">Sair da conta</a>
     </p>
 </body>

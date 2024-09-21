@@ -64,8 +64,8 @@ require('header.php');
     } 
     ?>
     
-    /*    <a href="cadastro.php">Registro de Solicitações</a>
-        <a href="logout.php">Sair da conta</a>*/
+        <a href="cadastro.php">Registro de Solicitações</a>
+        <a href="logout.php">Sair da conta</a>
     </p>
 </body>
 </html>
